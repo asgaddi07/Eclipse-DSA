@@ -2,6 +2,12 @@ package com.sorting;
 
 import java.util.Scanner;
 
+/* 
+ T.C:-O(n^2)best, O(n^2)average, O(n^2)worst
+ => Bubble Sort takes n^2/2 comparisions and n^2/2 swaps in both average case and in worst case.
+ 
+  */
+
 //create SortBubble class.
 class SortBubble{
 	//create bulbbleSort methods.
