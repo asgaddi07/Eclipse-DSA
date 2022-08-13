@@ -5,8 +5,7 @@ import java.util.Scanner;
 //create SortBubble class.
 class SortBubble{
 	//create bulbbleSort methods.
-	  static int [] bubbleSort(int [] array) {
-		
+	  static int [] bubbleSort(int [] array) { 
 		int size=array.length;
 		for(int i=0;i<size;i++) {
 			for(int j=0;j<size-i-1;j++) {
