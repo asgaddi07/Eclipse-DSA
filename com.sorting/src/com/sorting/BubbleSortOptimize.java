@@ -47,8 +47,7 @@ public class BubbleSortOptimize {
 		for(int i=0;i<sizeOfArray;i++) {
 			System.out.print(result[i]+" ");
 		}
-		scan.close();
-		
+		scan.close(); 
 	}
 
 }
