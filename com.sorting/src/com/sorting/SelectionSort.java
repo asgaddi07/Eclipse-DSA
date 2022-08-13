@@ -43,6 +43,7 @@ public class SelectionSort {
 		array=new int[size];
 		result=new int[size+1];
 		for(int i=0;i<size;i++) {
+			System.out.println("Enter element of index: "+i);
 			array[i]=scan.nextInt();
 		}
 		
