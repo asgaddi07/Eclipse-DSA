@@ -2,6 +2,13 @@ package com.sorting;
 
 import java.util.Scanner;
 
+/* 
+T.C:-O(n^2)best, O(n^2)average, O(n^2)worst
+=> Selection Sort takes n^2/2 comparisons and n swaps.
+=> selection Sort is best suits for elements with bigger values and small keys.
+
+ */
+
 class SortSelection{
 	static int [] selectionSort(int [] array) {
 		int size=array.length;
