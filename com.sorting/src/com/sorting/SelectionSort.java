@@ -5,15 +5,16 @@ import java.util.Scanner;
 class SortSelection{
 	static int [] selectionSort(int [] array) {
 		int size=array.length;
-//		for(int i=0;i<size-1;i++) {
-//			int indexMin=i;
-//			for(int j=i+1;j<size;j++) {
-//				if(array[indexMin]>array[j])indexMin=j;
-//			}
-//			int temp=array[i];
-//			array[i]=array[indexMin];
-//			array[indexMin]=temp; 
-//		}
+	/*	for(int i=0;i<size-1;i++) {
+			int indexMin=i;
+			for(int j=i+1;j<size;j++) {
+				if(array[indexMin]>array[j])indexMin=j;
+			}
+			int temp=array[i];
+			array[i]=array[indexMin];
+			array[indexMin]=temp; 
+		}
+		*/
 		
 		//Alternative way store largest element at end
 		for(int i=size-1;i>0;i--) {
