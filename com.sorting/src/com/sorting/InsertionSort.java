@@ -2,6 +2,13 @@ package com.sorting;
 
 import java.util.Scanner;
 
+/* 
+T.C:-O(n)best, O(n^2)average, O(n^2)worst
+=> Insertion Sort takes n^2/4 comparisons and n^2/8 swaps in average case and in worst case they are double.
+=> Insertion Sort is almost linear for partially sorted input.
+
+ */
+
 class SortInsertion{
 	static int[] insertionSort(int[] array){
 		 int  key;  
