@@ -1,6 +1,9 @@
 package com.sorting;
 import java.util.Scanner;
-
+/*
+ O(nlogn)all case.
+ space-O(n). 
+ */
 class SortMerge{
 	static int[] mergeSort(int [] array){
 		int left=0;
